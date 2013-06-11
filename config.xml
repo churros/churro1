@@ -1,0 +1,11 @@
+<? xml version="10" encoding="utf-8"?>
+	<widget xmlns="http://www.w3.org/ns/widgets"
+		xmls:gap="http://phonegap.com/ns/1.0"
+		id="com.utm.mobile"
+		version="1.0.0"
+	<gap:platforms>
+		<gap:plataform name="android" minVrsion="2.1"/>
+	</gap:platforms>
+	<feature name = "http//api.phonegap.com/1.0/contacts"/>
+	<preference name="phonegap-version" value="2.7.0"/>
+</widget>

@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<metal>.........</meta>
+		<title>.........</title>
+		<script type="text/javascript" src="phonegap.js"/>
+		
+			document.addEventListener ("deviceready",function() {
+			document.getElementByid("boton"). addEventListener ("click",function () {
+				navigator.contacts.find ([*], function (contactos) {
+					for (var i=0; i<contactos.length; i++) {
+					var contacto=contactos [i];
+					alert (contacto.displayName); }
+					} , function (){
+			alert("error al leer contactos");
+			 };
+			}, false);
+			},false);
+		</script>
+		</head>
+		<body>
+			<imput type="button" value ="Leer contacto" id="boton">
+		<body>
+<html>	
